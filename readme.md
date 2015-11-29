@@ -12,7 +12,6 @@ var toElement = require('json-to-react-element');
 var MyUl = function() {
   return toElement({
     children: [{
-      parent: '.0',
       name: 'li',
       props: {
         key: 'my-li'
