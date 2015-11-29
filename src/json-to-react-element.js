@@ -1,12 +1,12 @@
 var map = require('lodash.map');
 var React = require('react');
 
-var createChildren = function(tree) {
+var createChildren = function(node) {
   if (node.content) {
     return node.content;
   }
 
-  return node.children.map(createElement, this);
+  return map(node.children, createElement);
 };
 
 var createElement = function(node) {
