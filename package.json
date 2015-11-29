@@ -1,6 +1,6 @@
 {
   "name": "json-to-react-element",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "license": "BSD-3-Clause",
   "main": "src/json-to-react-element.js",
   "description": "json > react-element",
